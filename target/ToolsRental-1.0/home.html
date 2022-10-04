@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js">-->
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesone/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xh1SUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxTlely+B+xFAmJKVSTbpM/CuL7qx08w==" crossorigin="anonymous" /> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <script src="js/main.js"></script>
+        <link href="css/main.css" rel="stylesheet">
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-warning">
+            <a class="navbar-brand" href="#">MASTERTOOLS - Inicio</a>
+            <div id="user-data-profile">
+                <span class="badge badge-ligth mr-3" id="user-saldo"></span>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span id="ajuste">Ajustes</span>                        
+                    </button>
+                    <div class="dropdown-menu" id="main-menu">
+                        <a id="mi-perfil-btn" class="dropdown-item">Mi perfil</a>
+                        <a id="salir-btn" class="dropdown-item" href="login2.html">Salir</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main class="p-4 d-flex justify-content-center ">
+            <table class="table" id="tablita">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Titulo</th>
+                        <th scope="col" id="ordernar-tipo" data-toggle="tooltip" data-placement="top" title="Ordenar por tipo">Tipo
+                            <span class="fas fa-sort" id="icono-ordenar"></span></th>
+                        <th scope="col">Marca</th>
+                        <th scope="col">Copias disponibles</th>
+                        <th scope="col">Novedad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Reservar</th>
+
+                    </tr>
+                </thead>
+                <tbody id="herramientas-tbody">
+
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>
+
+
