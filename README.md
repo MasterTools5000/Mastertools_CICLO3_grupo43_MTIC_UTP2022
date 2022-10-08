@@ -3,7 +3,7 @@
 Grupo 43 Equipo 12
 Integrantes
 
-Carlos Zambrano - Scrum Master - Base de Datos - Backend
+Carlos Zambrano - Scrum Master - Base de Datos - Backend /n
 Andres  Sanchez - Frontend- Backend- Tester - Product Owner
 Sergio López Tester – developer
 
